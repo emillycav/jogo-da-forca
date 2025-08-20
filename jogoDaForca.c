@@ -36,7 +36,7 @@ int main()
     printf("==== JOGO DA FORCA ====\n");
     printf("A palavra tem %d letras\n\n", tamanho);
     
-    while (erros < 6 && acertos < tamanho) {
+    while (erros < 6     && acertos < tamanho) {
         printf("Palavra: ");
         for (int i = 0; i < tamanho; i++) {
             if (letrasCorretas[i]) {
@@ -46,7 +46,7 @@ int main()
             }
         }
         
-        printf("\nTentativas restantes: %d\n", 6-erros);
+        printf("\nVidas restantes: %d\n", 6-erros);
         printf("Digite uma letra: ");
         scanf(" %c", &tentativa);
         tentativa = tolower(tentativa);
