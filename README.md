@@ -1,4 +1,6 @@
 Jogo da Forca em C 🍎
+
+
 Este é um projeto simples de um jogo da forca, desenvolvido em C como um projeto de aprendizado. Diferente da versão tradicional, ele não desenha um boneco, mas desafia o jogador a adivinhar a palavra usando um contador de vidas.
 
 Funcionalidades
